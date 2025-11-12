@@ -15,7 +15,8 @@ namespace DigitalMicrowave.Api
             var secret = WebConfigurationManager.AppSettings["JwtSecret"];
             var key = Encoding.UTF8.GetBytes(secret);
 
-            config.MessageHandlers.Add(new JwtAuthHandler(key));
+            var formatters = config.Formatters;
+            formatters.Remove(formatters.XmlFormatter);
 
             // Rotas de API Web
             config.MapHttpAttributeRoutes();

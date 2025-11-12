@@ -8,7 +8,7 @@ namespace DigitalMicrowave.Api.Auth
 {
     public class JwtTokenProvider
     {
-        private const string SECRET_KEY = "MICROWAVE_SECRET_123456789"; // 32+ chars recomendado
+        private const string SECRET_KEY = "MICROWAVE_SECRET_123456789"; 
         public static string ISSUER = "DigitalMicrowaveApi";
         public static string AUDIENCE = "DigitalMicrowaveClient";
 

@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Web;
+using System.Web.Configuration;
 using System.Web.Http;
 
 [assembly: OwinStartup(typeof(Startup))]
@@ -23,31 +24,17 @@ namespace DigitalMicrowave.Api
         {
             var config = new HttpConfiguration();
 
+            var secret = WebConfigurationManager.AppSettings["JwtSecret"];
+            var key = Encoding.UTF8.GetBytes(secret);
+
+            config.MessageHandlers.Add(new JwtAuthHandler(key));
+
+            config.Formatters.Remove(config.Formatters.XmlFormatter); // remove o XML
+
             WebApiConfig.Register(config);
-
-            config.EnableSwagger(c =>
-            {
-                c.SingleApiVersion("v1", "Digital Microwave API");
-            })
-            .EnableSwaggerUi();
-            var secret = "SUA_CHAVE_SUPER_SECRETA_256_BITS_AQUI"; // mesma usada pra gerar o token
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secret));
-
-            app.UseJwtBearerAuthentication(new JwtBearerAuthenticationOptions
-            {
-                AuthenticationMode = AuthenticationMode.Active,
-                TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuer = true,
-                    ValidateAudience = true,
-                    ValidateIssuerSigningKey = true,
-                    ValidIssuer = "DigitalMicrowave",           // MESMO issuer usado no token!
-                    ValidAudience = "DigitalMicrowaveWebApp",   // MESMO audience usado no token!
-                    IssuerSigningKey = key
-                }
-            });
 
             app.UseWebApi(config);
         }
+
     }
 }

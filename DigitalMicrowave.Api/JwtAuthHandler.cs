@@ -18,27 +18,47 @@ namespace DigitalMicrowave.Api
 
         protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellation)
         {
+            var path = request.RequestUri.AbsolutePath.ToLower();
+
+            // ✅ Ignorar validação para Swagger e CORS preflight
+            if (request.Method == HttpMethod.Options ||
+                path.Contains("swagger") ||
+                path.Contains("swagger/docs") ||
+                path.Contains("swagger/ui"))
+            {
+                return await base.SendAsync(request, cancellation);
+            }
+
             if (!request.Headers.Contains("Authorization"))
-                return request.CreateResponse(HttpStatusCode.Unauthorized, "Missing token");
+                return UnauthorizedResponse(request, "Missing token");
 
             try
             {
                 var token = request.Headers.Authorization.Parameter;
                 var handler = new JwtSecurityTokenHandler();
+
                 handler.ValidateToken(token, new TokenValidationParameters
                 {
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = new SymmetricSecurityKey(_key),
                     ValidateIssuer = false,
-                    ValidateAudience = false
+                    ValidateAudience = false,
+                    ClockSkew = TimeSpan.Zero
                 }, out _);
 
                 return await base.SendAsync(request, cancellation);
             }
             catch
             {
-                return request.CreateResponse(HttpStatusCode.Unauthorized, "Invalid token");
+                return UnauthorizedResponse(request, "Invalid token");
             }
+        }
+
+        private HttpResponseMessage UnauthorizedResponse(HttpRequestMessage request, string message)
+        {
+            var resp = request.CreateResponse(HttpStatusCode.Unauthorized);
+            resp.Content = new StringContent(message, System.Text.Encoding.UTF8, "text/plain");
+            return resp;
         }
     }
 }
