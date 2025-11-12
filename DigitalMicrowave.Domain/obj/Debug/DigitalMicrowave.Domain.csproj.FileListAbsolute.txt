@@ -4,3 +4,9 @@ C:\Users\DELL\source\repos\DigitalMicrowave\DigitalMicrowave.Domain\obj\Debug\Di
 C:\Users\DELL\source\repos\DigitalMicrowave\DigitalMicrowave.Domain\obj\Debug\DigitalMicrowave.Domain.csproj.CoreCompileInputs.cache
 C:\Users\DELL\source\repos\DigitalMicrowave\DigitalMicrowave.Domain\obj\Debug\DigitalMicrowave.Domain.dll
 C:\Users\DELL\source\repos\DigitalMicrowave\DigitalMicrowave.Domain\obj\Debug\DigitalMicrowave.Domain.pdb
+C:\Users\DELL\source\DigitalMicrowave\DigitalMicrowave.Domain\bin\Debug\DigitalMicrowave.Domain.dll
+C:\Users\DELL\source\DigitalMicrowave\DigitalMicrowave.Domain\bin\Debug\DigitalMicrowave.Domain.pdb
+C:\Users\DELL\source\DigitalMicrowave\DigitalMicrowave.Domain\obj\Debug\DigitalMicrowave.Domain.csproj.AssemblyReference.cache
+C:\Users\DELL\source\DigitalMicrowave\DigitalMicrowave.Domain\obj\Debug\DigitalMicrowave.Domain.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\DigitalMicrowave\DigitalMicrowave.Domain\obj\Debug\DigitalMicrowave.Domain.dll
+C:\Users\DELL\source\DigitalMicrowave\DigitalMicrowave.Domain\obj\Debug\DigitalMicrowave.Domain.pdb

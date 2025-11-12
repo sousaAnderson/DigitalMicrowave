@@ -3,32 +3,100 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\source\\DigitalMicrowave\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|c:\\users\\dell\\source\\digitalmicrowave\\digitalmicrowave.api\\app_start\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|solutionrelative:digitalmicrowave.api\\app_start\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|c:\\users\\dell\\source\\digitalmicrowave\\digitalmicrowave.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|solutionrelative:digitalmicrowave.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|c:\\users\\dell\\source\\digitalmicrowave\\digitalmicrowave.api\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|solutionrelative:digitalmicrowave.api\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave.api\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|solutionrelative:digitalmicrowave.api\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave.api\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|solutionrelative:digitalmicrowave.api\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|c:\\users\\dell\\source\\digitalmicrowave\\digitalmicrowave.api\\controllers\\heatingprogramscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|solutionrelative:digitalmicrowave.api\\controllers\\heatingprogramscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave.api\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|solutionrelative:digitalmicrowave.api\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|c:\\users\\dell\\source\\digitalmicrowave\\digitalmicrowave.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|solutionrelative:digitalmicrowave.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|c:\\users\\dell\\source\\digitalmicrowave\\digitalmicrowave.api\\app_start\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|solutionrelative:digitalmicrowave.api\\app_start\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBFD6E48-7AC6-4A6A-BDB3-F58E623FDBDD}|DigitalMicrowave.Infrastructure\\DigitalMicrowave.Infrastructure.csproj|c:\\users\\dell\\source\\digitalmicrowave\\digitalmicrowave.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBFD6E48-7AC6-4A6A-BDB3-F58E623FDBDD}|DigitalMicrowave.Infrastructure\\DigitalMicrowave.Infrastructure.csproj|solutionrelative:digitalmicrowave.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80AABBA2-0E39-4128-9B38-201DA25A6F24}|DigitalMicrowave.Domain\\DigitalMicrowave.Domain.csproj|c:\\users\\dell\\source\\digitalmicrowave\\digitalmicrowave.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80AABBA2-0E39-4128-9B38-201DA25A6F24}|DigitalMicrowave.Domain\\DigitalMicrowave.Domain.csproj|solutionrelative:digitalmicrowave.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E225F8-6B04-42A8-BAB0-4D9F469E1F83}|DigitalMicrowave.Application\\DigitalMicrowave.Application.csproj|c:\\users\\dell\\source\\digitalmicrowave\\digitalmicrowave.application\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E225F8-6B04-42A8-BAB0-4D9F469E1F83}|DigitalMicrowave.Application\\DigitalMicrowave.Application.csproj|solutionrelative:digitalmicrowave.application\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E225F8-6B04-42A8-BAB0-4D9F469E1F83}|DigitalMicrowave.Application\\DigitalMicrowave.Application.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave.application\\services\\heatingprogramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E225F8-6B04-42A8-BAB0-4D9F469E1F83}|DigitalMicrowave.Application\\DigitalMicrowave.Application.csproj|solutionrelative:digitalmicrowave.application\\services\\heatingprogramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBFD6E48-7AC6-4A6A-BDB3-F58E623FDBDD}|DigitalMicrowave.Infrastructure\\DigitalMicrowave.Infrastructure.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave.infrastructure\\repositories\\heatingprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBFD6E48-7AC6-4A6A-BDB3-F58E623FDBDD}|DigitalMicrowave.Infrastructure\\DigitalMicrowave.Infrastructure.csproj|solutionrelative:digitalmicrowave.infrastructure\\repositories\\heatingprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80AABBA2-0E39-4128-9B38-201DA25A6F24}|DigitalMicrowave.Domain\\DigitalMicrowave.Domain.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave.domain\\interfaces\\iheatingprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80AABBA2-0E39-4128-9B38-201DA25A6F24}|DigitalMicrowave.Domain\\DigitalMicrowave.Domain.csproj|solutionrelative:digitalmicrowave.domain\\interfaces\\iheatingprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80AABBA2-0E39-4128-9B38-201DA25A6F24}|DigitalMicrowave.Domain\\DigitalMicrowave.Domain.csproj|c:\\users\\dell\\source\\digitalmicrowave\\digitalmicrowave.domain\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80AABBA2-0E39-4128-9B38-201DA25A6F24}|DigitalMicrowave.Domain\\DigitalMicrowave.Domain.csproj|solutionrelative:digitalmicrowave.domain\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|c:\\users\\dell\\source\\digitalmicrowave\\digitalmicrowave.api\\auth\\jwttokenprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|solutionrelative:digitalmicrowave.api\\auth\\jwttokenprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|c:\\users\\dell\\source\\digitalmicrowave\\digitalmicrowave.api\\jwtauthhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|solutionrelative:digitalmicrowave.api\\jwtauthhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|c:\\users\\dell\\source\\digitalmicrowave\\digitalmicrowave\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|solutionrelative:digitalmicrowave\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|solutionrelative:digitalmicrowave\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|solutionrelative:digitalmicrowave\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|solutionrelative:digitalmicrowave\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave\\heatingprograms.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|solutionrelative:digitalmicrowave\\heatingprograms.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave\\heatingprograms.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|solutionrelative:digitalmicrowave\\heatingprograms.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|c:\\users\\dell\\source\\digitalmicrowave\\digitalmicrowave.api\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|solutionrelative:digitalmicrowave.api\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|solutionrelative:digitalmicrowave\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave.api\\controllers\\microwavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|solutionrelative:digitalmicrowave.api\\controllers\\microwavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7E225F8-6B04-42A8-BAB0-4D9F469E1F83}|DigitalMicrowave.Application\\DigitalMicrowave.Application.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave.application\\services\\microwaveservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E225F8-6B04-42A8-BAB0-4D9F469E1F83}|DigitalMicrowave.Application\\DigitalMicrowave.Application.csproj|solutionrelative:digitalmicrowave.application\\services\\microwaveservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave.api\\controllers\\heatingprogramcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F5F4BCF-B1F6-409F-B1F4-E83AEF241C4C}|DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj|solutionrelative:digitalmicrowave.api\\controllers\\heatingprogramcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave\\microwave.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,40 +107,12 @@
       "RelativeMoniker": "D:0:0:{80AABBA2-0E39-4128-9B38-201DA25A6F24}|DigitalMicrowave.Domain\\DigitalMicrowave.Domain.csproj|solutionrelative:digitalmicrowave.domain\\entities\\microwave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7E225F8-6B04-42A8-BAB0-4D9F469E1F83}|DigitalMicrowave.Application\\DigitalMicrowave.Application.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave.application\\services\\heatingprogramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E225F8-6B04-42A8-BAB0-4D9F469E1F83}|DigitalMicrowave.Application\\DigitalMicrowave.Application.csproj|solutionrelative:digitalmicrowave.application\\services\\heatingprogramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave\\heatingprograms.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|solutionrelative:digitalmicrowave\\heatingprograms.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave\\microwave.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|solutionrelative:digitalmicrowave\\microwave.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave\\heatingprograms.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|solutionrelative:digitalmicrowave\\heatingprograms.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBFD6E48-7AC6-4A6A-BDB3-F58E623FDBDD}|DigitalMicrowave.Infrastructure\\DigitalMicrowave.Infrastructure.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave.infrastructure\\repositories\\heatingprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBFD6E48-7AC6-4A6A-BDB3-F58E623FDBDD}|DigitalMicrowave.Infrastructure\\DigitalMicrowave.Infrastructure.csproj|solutionrelative:digitalmicrowave.infrastructure\\repositories\\heatingprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F7E225F8-6B04-42A8-BAB0-4D9F469E1F83}|DigitalMicrowave.Application\\DigitalMicrowave.Application.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave.application\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7E225F8-6B04-42A8-BAB0-4D9F469E1F83}|DigitalMicrowave.Application\\DigitalMicrowave.Application.csproj|solutionrelative:digitalmicrowave.application\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80AABBA2-0E39-4128-9B38-201DA25A6F24}|DigitalMicrowave.Domain\\DigitalMicrowave.Domain.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave.domain\\interfaces\\iheatingprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80AABBA2-0E39-4128-9B38-201DA25A6F24}|DigitalMicrowave.Domain\\DigitalMicrowave.Domain.csproj|solutionrelative:digitalmicrowave.domain\\interfaces\\iheatingprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|solutionrelative:digitalmicrowave\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{C6B851C6-3CC8-4193-87F0-2BC77F82643C}|DigitalMicrowave\\DigitalMicrowave.Web.csproj|solutionrelative:digitalmicrowave\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80AABBA2-0E39-4128-9B38-201DA25A6F24}|DigitalMicrowave.Domain\\DigitalMicrowave.Domain.csproj|C:\\Users\\DELL\\source\\DigitalMicrowave\\digitalmicrowave.domain\\entities\\heatingprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,7 +146,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -159,75 +199,119 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "WebApiConfig.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\App_Start\\WebApiConfig.cs",
-              "RelativeDocumentMoniker": "DigitalMicrowave.Api\\App_Start\\WebApiConfig.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\App_Start\\WebApiConfig.cs",
-              "RelativeToolTip": "DigitalMicrowave.Api\\App_Start\\WebApiConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\Global.asax.cs",
+              "RelativeDocumentMoniker": "DigitalMicrowave.Api\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\Global.asax.cs",
+              "RelativeToolTip": "DigitalMicrowave.Api\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T02:39:32.165Z"
+              "WhenOpened": "2025-11-12T03:03:32.061Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BundleConfig.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\App_Start\\BundleConfig.cs",
-              "RelativeDocumentMoniker": "DigitalMicrowave.Api\\App_Start\\BundleConfig.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\App_Start\\BundleConfig.cs",
-              "RelativeToolTip": "DigitalMicrowave.Api\\App_Start\\BundleConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "DigitalMicrowave.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "DigitalMicrowave.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T02:38:33.708Z"
+              "WhenOpened": "2025-11-11T22:40:25.925Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "HeatingProgramsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\Controllers\\HeatingProgramsController.cs",
+              "RelativeDocumentMoniker": "DigitalMicrowave.Api\\Controllers\\HeatingProgramsController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\Controllers\\HeatingProgramsController.cs",
+              "RelativeToolTip": "DigitalMicrowave.Api\\Controllers\\HeatingProgramsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T00:28:54.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DigitalMicrowave.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "DigitalMicrowave.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBcAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T02:16:45.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SwaggerConfig.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\App_Start\\SwaggerConfig.cs",
               "RelativeDocumentMoniker": "DigitalMicrowave.Api\\App_Start\\SwaggerConfig.cs",
               "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\App_Start\\SwaggerConfig.cs",
               "RelativeToolTip": "DigitalMicrowave.Api\\App_Start\\SwaggerConfig.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAtwGoAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T02:34:16.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "packages.config",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\packages.config",
-              "RelativeDocumentMoniker": "DigitalMicrowave.Api\\packages.config",
-              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\packages.config",
-              "RelativeToolTip": "DigitalMicrowave.Api\\packages.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-11-11T02:23:28.777Z"
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\Startup.cs",
+              "RelativeDocumentMoniker": "DigitalMicrowave.Api\\Startup.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\Startup.cs",
+              "RelativeToolTip": "DigitalMicrowave.Api\\Startup.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T01:41:53.162Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MicrowaveController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\Controllers\\MicrowaveController.cs",
-              "RelativeDocumentMoniker": "DigitalMicrowave.Api\\Controllers\\MicrowaveController.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\Controllers\\MicrowaveController.cs",
-              "RelativeToolTip": "DigitalMicrowave.Api\\Controllers\\MicrowaveController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "DigitalMicrowave.Api\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "DigitalMicrowave.Api\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAzwBEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T02:12:42.452Z"
+              "WhenOpened": "2025-11-11T02:39:32.165Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HeatingProgramController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\Controllers\\HeatingProgramController.cs",
-              "RelativeDocumentMoniker": "DigitalMicrowave.Api\\Controllers\\HeatingProgramController.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\Controllers\\HeatingProgramController.cs",
-              "RelativeToolTip": "DigitalMicrowave.Api\\Controllers\\HeatingProgramController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCUAAABVAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "DigitalMicrowave.Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "DigitalMicrowave.Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T00:28:54.737Z"
+              "WhenOpened": "2025-11-12T02:14:29.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Application\\Services\\UserServices.cs",
+              "RelativeDocumentMoniker": "DigitalMicrowave.Application\\Services\\UserServices.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Application\\Services\\UserServices.cs",
+              "RelativeToolTip": "DigitalMicrowave.Application\\Services\\UserServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T02:20:57.189Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -237,133 +321,131 @@
               "RelativeDocumentMoniker": "DigitalMicrowave.Application\\Services\\HeatingProgramService.cs",
               "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Application\\Services\\HeatingProgramService.cs",
               "RelativeToolTip": "DigitalMicrowave.Application\\Services\\HeatingProgramService.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAEwBEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T21:08:32.404Z"
+              "WhenOpened": "2025-11-10T21:08:32.404Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Microwave.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Domain\\Entities\\Microwave.cs",
-              "RelativeDocumentMoniker": "DigitalMicrowave.Domain\\Entities\\Microwave.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Domain\\Entities\\Microwave.cs",
-              "RelativeToolTip": "DigitalMicrowave.Domain\\Entities\\Microwave.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAgwAgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Domain\\Entities\\Users.cs",
+              "RelativeDocumentMoniker": "DigitalMicrowave.Domain\\Entities\\Users.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Domain\\Entities\\Users.cs",
+              "RelativeToolTip": "DigitalMicrowave.Domain\\Entities\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T02:17:52.825Z"
+              "WhenOpened": "2025-11-12T02:13:14.372Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MicrowaveServices.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Application\\Services\\MicrowaveServices.cs",
-              "RelativeDocumentMoniker": "DigitalMicrowave.Application\\Services\\MicrowaveServices.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Application\\Services\\MicrowaveServices.cs",
-              "RelativeToolTip": "DigitalMicrowave.Application\\Services\\MicrowaveServices.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAIwDcAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T18:10:23.244Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Microwave.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\Microwave.aspx.cs",
-              "RelativeDocumentMoniker": "DigitalMicrowave\\Microwave.aspx.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\Microwave.aspx.cs",
-              "RelativeToolTip": "DigitalMicrowave\\Microwave.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T22:41:20.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "HeatingProgramRepository.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Infrastructure\\Repositories\\HeatingProgramRepository.cs",
               "RelativeDocumentMoniker": "DigitalMicrowave.Infrastructure\\Repositories\\HeatingProgramRepository.cs",
               "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Infrastructure\\Repositories\\HeatingProgramRepository.cs",
               "RelativeToolTip": "DigitalMicrowave.Infrastructure\\Repositories\\HeatingProgramRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBEAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T20:51:59.729Z"
+              "WhenOpened": "2025-11-10T20:51:59.729Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Utils.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Application\\Utils.cs",
-              "RelativeDocumentMoniker": "DigitalMicrowave.Application\\Utils.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Application\\Utils.cs",
-              "RelativeToolTip": "DigitalMicrowave.Application\\Utils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "JwtTokenProvider.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\Auth\\JwtTokenProvider.cs",
+              "RelativeDocumentMoniker": "DigitalMicrowave.Api\\Auth\\JwtTokenProvider.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\Auth\\JwtTokenProvider.cs",
+              "RelativeToolTip": "DigitalMicrowave.Api\\Auth\\JwtTokenProvider.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T19:55:59.386Z"
+              "WhenOpened": "2025-11-12T02:08:42.114Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Microwave.aspx",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\Microwave.aspx",
-              "RelativeDocumentMoniker": "DigitalMicrowave\\Microwave.aspx",
-              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\Microwave.aspx",
-              "RelativeToolTip": "DigitalMicrowave\\Microwave.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-10T03:15:12.763Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HeatingPrograms.aspx",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\HeatingPrograms.aspx",
-              "RelativeDocumentMoniker": "DigitalMicrowave\\HeatingPrograms.aspx",
-              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\HeatingPrograms.aspx",
-              "RelativeToolTip": "DigitalMicrowave\\HeatingPrograms.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-10T21:14:44.227Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HeatingPrograms.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\HeatingPrograms.aspx.cs",
-              "RelativeDocumentMoniker": "DigitalMicrowave\\HeatingPrograms.aspx.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\HeatingPrograms.aspx.cs",
-              "RelativeToolTip": "DigitalMicrowave\\HeatingPrograms.aspx.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAArwBcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T21:18:23.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "IHeatingProgramRepository.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Domain\\Interfaces\\IHeatingProgramRepository.cs",
               "RelativeDocumentMoniker": "DigitalMicrowave.Domain\\Interfaces\\IHeatingProgramRepository.cs",
               "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Domain\\Interfaces\\IHeatingProgramRepository.cs",
               "RelativeToolTip": "DigitalMicrowave.Domain\\Interfaces\\IHeatingProgramRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T20:45:03.035Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Site.Master",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\Site.Master",
-              "RelativeDocumentMoniker": "DigitalMicrowave\\Site.Master",
-              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\Site.Master",
-              "RelativeToolTip": "DigitalMicrowave\\Site.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-10T03:12:06.961Z"
+              "WhenOpened": "2025-11-10T20:45:03.035Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "DigitalMicrowave\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\Login.aspx.cs",
+              "RelativeToolTip": "DigitalMicrowave\\Login.aspx.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwCwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T18:11:37.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\ApiClient.cs",
+              "RelativeDocumentMoniker": "DigitalMicrowave\\ApiClient.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\ApiClient.cs",
+              "RelativeToolTip": "DigitalMicrowave\\ApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T23:08:42.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\Login.aspx",
+              "RelativeDocumentMoniker": "DigitalMicrowave\\Login.aspx",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\Login.aspx",
+              "RelativeToolTip": "DigitalMicrowave\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-11T17:50:03.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "JwtAuthHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\JwtAuthHandler.cs",
+              "RelativeDocumentMoniker": "DigitalMicrowave.Api\\JwtAuthHandler.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\JwtAuthHandler.cs",
+              "RelativeToolTip": "DigitalMicrowave.Api\\JwtAuthHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:43:43.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HeatingPrograms.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\HeatingPrograms.aspx.cs",
+              "RelativeDocumentMoniker": "DigitalMicrowave\\HeatingPrograms.aspx.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\HeatingPrograms.aspx.cs",
+              "RelativeToolTip": "DigitalMicrowave\\HeatingPrograms.aspx.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAqwHcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T21:18:23.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\Web.config",
               "RelativeDocumentMoniker": "DigitalMicrowave\\Web.config",
@@ -376,7 +458,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
+              "Title": "HeatingPrograms.aspx",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\HeatingPrograms.aspx",
+              "RelativeDocumentMoniker": "DigitalMicrowave\\HeatingPrograms.aspx",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\HeatingPrograms.aspx",
+              "RelativeToolTip": "DigitalMicrowave\\HeatingPrograms.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-10T21:14:44.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\Web.config",
+              "RelativeDocumentMoniker": "DigitalMicrowave.Api\\Web.config",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\Web.config",
+              "RelativeToolTip": "DigitalMicrowave.Api\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-11T22:38:19.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MicrowaveController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\Controllers\\MicrowaveController.cs",
+              "RelativeDocumentMoniker": "DigitalMicrowave.Api\\Controllers\\MicrowaveController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Api\\Controllers\\MicrowaveController.cs",
+              "RelativeToolTip": "DigitalMicrowave.Api\\Controllers\\MicrowaveController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T02:12:42.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\Site.Master",
+              "RelativeDocumentMoniker": "DigitalMicrowave\\Site.Master",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\Site.Master",
+              "RelativeToolTip": "DigitalMicrowave\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-10T03:12:06.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Microwave.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Domain\\Entities\\Microwave.cs",
+              "RelativeDocumentMoniker": "DigitalMicrowave.Domain\\Entities\\Microwave.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Domain\\Entities\\Microwave.cs",
+              "RelativeToolTip": "DigitalMicrowave.Domain\\Entities\\Microwave.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T02:17:52.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Microwave.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\Microwave.aspx.cs",
+              "RelativeDocumentMoniker": "DigitalMicrowave\\Microwave.aspx.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\Microwave.aspx.cs",
+              "RelativeToolTip": "DigitalMicrowave\\Microwave.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T22:41:20.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Application\\Utils.cs",
+              "RelativeDocumentMoniker": "DigitalMicrowave.Application\\Utils.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Application\\Utils.cs",
+              "RelativeToolTip": "DigitalMicrowave.Application\\Utils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T19:55:59.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Microwave.aspx",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\Microwave.aspx",
+              "RelativeDocumentMoniker": "DigitalMicrowave\\Microwave.aspx",
+              "ToolTip": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\Microwave.aspx",
+              "RelativeToolTip": "DigitalMicrowave\\Microwave.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-10T03:15:12.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "HeatingProgram.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Domain\\Entities\\HeatingProgram.cs",
               "RelativeDocumentMoniker": "DigitalMicrowave.Domain\\Entities\\HeatingProgram.cs",
@@ -384,11 +570,12 @@
               "RelativeToolTip": "DigitalMicrowave.Domain\\Entities\\HeatingProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T20:44:13.895Z"
+              "WhenOpened": "2025-11-10T20:44:13.895Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 29,
               "Title": "MicrowavePanel.aspx",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\MicrowavePanel.aspx",
               "RelativeDocumentMoniker": "DigitalMicrowave\\MicrowavePanel.aspx",
@@ -396,11 +583,12 @@
               "RelativeToolTip": "DigitalMicrowave\\MicrowavePanel.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-11-10T13:22:50.022Z"
+              "WhenOpened": "2025-11-10T13:22:50.022Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 31,
               "Title": "MicrowaveStateEnum.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave.Domain\\Enums\\MicrowaveStateEnum.cs",
               "RelativeDocumentMoniker": "DigitalMicrowave.Domain\\Enums\\MicrowaveStateEnum.cs",
@@ -408,11 +596,12 @@
               "RelativeToolTip": "DigitalMicrowave.Domain\\Enums\\MicrowaveStateEnum.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T01:45:04.642Z"
+              "WhenOpened": "2025-11-10T01:45:04.642Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 32,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\Web.config",
               "RelativeDocumentMoniker": "DigitalMicrowave\\Web.config",
@@ -424,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 33,
               "Title": "MicrowavePanel.aspx.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\MicrowavePanel.aspx.cs",
               "RelativeDocumentMoniker": "DigitalMicrowave\\MicrowavePanel.aspx.cs",
@@ -432,11 +621,12 @@
               "RelativeToolTip": "DigitalMicrowave\\MicrowavePanel.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T01:30:42.458Z"
+              "WhenOpened": "2025-11-09T01:30:42.458Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 30,
               "Title": "BundleConfig.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\DigitalMicrowave\\DigitalMicrowave\\App_Start\\BundleConfig.cs",
               "RelativeDocumentMoniker": "DigitalMicrowave\\App_Start\\BundleConfig.cs",

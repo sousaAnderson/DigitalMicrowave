@@ -65,10 +65,10 @@ Nossa API suporta o formato: REST. O sistema deve realizar uma chamada para a UR
                         //    .Description("Basic HTTP Authentication");
                         //
 						// NOTE: You must also configure 'EnableApiKeySupport' below in the SwaggerUI section
-                        //c.ApiKey("apiKey")
-                        //    .Description("API Key Authentication")
-                        //    .Name("apiKey")
-                        //    .In("header");
+                        c.ApiKey("Authorization")
+                            .Description("JWT Authorization header using the Bearer scheme. Example: \"Bearer {token}\"")
+                            .Name("Authorization")
+                            .In("header");
                         //
                         //c.OAuth2("oauth2")
                         //    .Description("OAuth2 Implicit Grant")
@@ -104,7 +104,7 @@ Nossa API suporta o formato: REST. O sistema deve realizar uma chamada para a UR
                         // those comments into the generated docs and UI. You can enable this by providing the path to one or
                         // more Xml comment files.
                         //
-                        //c.IncludeXmlComments(string.Format(@"{0}\bin\DigitalMicrowave.xml", System.AppDomain.CurrentDomain.BaseDirectory));
+                        c.IncludeXmlComments(GetXmlCommentsPath());
 
                         // Swashbuckle makes a best attempt at generating Swagger compliant JSON schemas for the various types
                         // exposed in your API. However, there may be occasions when more control of the output is needed.
@@ -146,7 +146,7 @@ Nossa API suporta o formato: REST. O sistema deve realizar uma chamada para a UR
                         // enum type. Swashbuckle will honor this change out-of-the-box. However, if you use a different
                         // approach to serialize enums as strings, you can also force Swashbuckle to describe them as strings.
                         //
-                        //c.DescribeAllEnumsAsStrings();
+                        c.DescribeAllEnumsAsStrings();
 
                         // Similar to Schema filters, Swashbuckle also supports Operation and Document filters:
                         //
@@ -215,7 +215,7 @@ Nossa API suporta o formato: REST. O sistema deve realizar uma chamada para a UR
                         // It can be set to "None" (default), "List" (shows operations for each resource),
                         // or "Full" (fully expanded: shows operations and their details).
                         //
-                        c.DocExpansion(DocExpansion.List);
+                       // c.DocExpansion(DocExpansion.List);
 
                         // Specify which HTTP operations will have the 'Try it out!' option. An empty paramter list disables
                         // it for all operations.
@@ -251,8 +251,14 @@ Nossa API suporta o formato: REST. O sistema deve realizar uma chamada para a UR
                         // If your API supports ApiKey, you can override the default values.
                         // "apiKeyIn" can either be "query" or "header"
                         //
-                        //c.EnableApiKeySupport("apiKey", "header");
+                        c.EnableApiKeySupport("Authorization", "header");
                     });
+        }
+
+        private static string GetXmlCommentsPath()
+        {
+            return System.String.Format(@"{0}\bin\DigitalMicrowave.Api.xml",
+                System.AppDomain.CurrentDomain.BaseDirectory);
         }
     }
 }

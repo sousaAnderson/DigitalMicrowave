@@ -50,6 +50,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -119,6 +120,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="HeatingPrograms.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="Microwave.aspx" />
     <Content Include="MicrowavePanel.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -183,6 +185,7 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiClient.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Global.asax.cs">
@@ -194,6 +197,13 @@
     </Compile>
     <Compile Include="HeatingPrograms.aspx.designer.cs">
       <DependentUpon>HeatingPrograms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Microwave.aspx.cs">
       <DependentUpon>Microwave.aspx</DependentUpon>

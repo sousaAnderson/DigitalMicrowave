@@ -9,6 +9,10 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using DigitalMicrowave.Domain.Entities;
 using DigitalMicrowave.Infrastructure.Repositories;
+using System.Drawing;
+using Newtonsoft.Json;
+using System.Net.Http;
+using System.Text;
 
 namespace DigitalMicrowave
 {
@@ -26,9 +30,22 @@ namespace DigitalMicrowave
             if (!IsPostBack)
                 LoadGrid();
         }
-        void LoadGrid()
+        protected async void LoadGrid()
         {
-            gridPrograms.DataSource = _service.GetAll();
+            var http = ApiClient.Client();
+            string apiUrl = ConfigurationManager.AppSettings["ApiBaseUrl"];
+            var response = await http.GetAsync($"{apiUrl}/heatingprograms");
+
+            if (!response.IsSuccessStatusCode)
+            {
+                lblError.Text = "API não conectada!";
+                gridPrograms.Enabled = false;
+                return;
+            }
+
+            string json = await response.Content.ReadAsStringAsync();
+            var data = JsonConvert.DeserializeObject<List<HeatingProgram>>(json);
+            gridPrograms.DataSource = data;
             gridPrograms.DataBind();
         }
         protected void btnNew_Click(object sender, EventArgs e)
@@ -39,10 +56,13 @@ namespace DigitalMicrowave
             lblError.Text = "";
             modal.Visible = true;
         }
-        protected void btnSave_Click(object sender, EventArgs e)
+        protected async void btnSave_Click(object sender, EventArgs e)
         {
             try
             {
+                var http = ApiClient.Client();
+                string apiUrl = ConfigurationManager.AppSettings["ApiBaseUrl"];
+
                 var program = new HeatingProgram
                 {
                     Id = string.IsNullOrWhiteSpace(txtId.Value) ? 0 : int.Parse(txtId.Value),
@@ -54,10 +74,13 @@ namespace DigitalMicrowave
                     Instructions = txtInstructions.Text
                 };
 
+                string jsonContent = JsonConvert.SerializeObject(program);
+                var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
+                
                 if (program.Id == 0)
-                    _service.Create(program);
+                    await http.PostAsync($"{apiUrl}/heatingprograms", content);
                 else
-                    _service.Update(program);
+                    await http.PutAsync($"{apiUrl}/heatingprograms", content);
 
                 modal.Visible = false;
                 LoadGrid();
@@ -71,21 +94,26 @@ namespace DigitalMicrowave
         {
             modal.Visible = false;
         }
-        protected void gridPrograms_RowCommand(object sender, System.Web.UI.WebControls.GridViewCommandEventArgs e)
+        protected async void gridPrograms_RowCommand(object sender, System.Web.UI.WebControls.GridViewCommandEventArgs e)
         {
             int id = int.Parse(e.CommandArgument.ToString());
+            var http = ApiClient.Client();
+            string apiUrl = ConfigurationManager.AppSettings["ApiBaseUrl"];
 
             if (e.CommandName == "edit")
             {
-                var p = _service.GetAll().First(x => x.Id == id);
+                var response = await http.GetAsync($"{apiUrl}/heatingprograms");
+                string json = await response.Content.ReadAsStringAsync();
+                var heatings = JsonConvert.DeserializeObject<List<HeatingProgram>>(json);
+                var heating = heatings.First(x => x.Id == id);
 
-                txtId.Value = p.Id.ToString();
-                txtName.Text = p.ProgramName;
-                txtFood.Text = p.Food;
-                txtTime.Text = p.Time.ToString();
-                txtPower.Text = p.Power.ToString();
-                txtChar.Text = p.HeatingCharacteristic;
-                txtInstructions.Text = p.Instructions;
+                txtId.Value = heating.Id.ToString();
+                txtName.Text = heating.ProgramName;
+                txtFood.Text = heating.Food;
+                txtTime.Text = heating.Time.ToString();
+                txtPower.Text = heating.Power.ToString();
+                txtChar.Text = heating.HeatingCharacteristic;
+                txtInstructions.Text = heating.Instructions;
                 lblError.Text = "";
 
                 modalTitle.InnerText = "Editar Programa";
@@ -94,7 +122,7 @@ namespace DigitalMicrowave
 
             if (e.CommandName == "delete")
             {
-                _service.Delete(id);
+                await http.DeleteAsync($"{apiUrl}/{id}");
                 LoadGrid();
             }
         }

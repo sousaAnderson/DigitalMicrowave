@@ -43,8 +43,10 @@
   <ItemGroup>
     <Compile Include="Entities\Microwave.cs" />
     <Compile Include="Entities\HeatingProgram.cs" />
+    <Compile Include="Entities\Users.cs" />
     <Compile Include="Enums\MicrowaveStateEnum.cs" />
     <Compile Include="Interfaces\IHeatingProgramRepository.cs" />
+    <Compile Include="Interfaces\IUserRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

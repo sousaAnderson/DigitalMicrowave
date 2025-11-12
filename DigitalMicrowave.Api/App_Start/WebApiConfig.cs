@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Web.Configuration;
 using System.Web.Http;
 
 namespace DigitalMicrowave.Api
@@ -10,6 +12,10 @@ namespace DigitalMicrowave.Api
         public static void Register(HttpConfiguration config)
         {
             // Configuração e serviços de API Web
+            var secret = WebConfigurationManager.AppSettings["JwtSecret"];
+            var key = Encoding.UTF8.GetBytes(secret);
+
+            config.MessageHandlers.Add(new JwtAuthHandler(key));
 
             // Rotas de API Web
             config.MapHttpAttributeRoutes();
