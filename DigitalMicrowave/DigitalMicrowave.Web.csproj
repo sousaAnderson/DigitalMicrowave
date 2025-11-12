@@ -188,6 +188,9 @@
     <Compile Include="ApiClient.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "DigitalMicrowave\\DigitalMicrowave.Web.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "DigitalMicrowave.Api\\DigitalMicrowave.Api.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -3,12 +3,13 @@ using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using System.Web.Configuration;
 
 namespace DigitalMicrowave.Api.Auth
 {
     public class JwtTokenProvider
     {
-        private const string SECRET_KEY = "MICROWAVE_SECRET_123456789"; 
+        private static string SECRET_KEY = WebConfigurationManager.AppSettings["JwtSecret"]; 
         public static string ISSUER = "DigitalMicrowaveApi";
         public static string AUDIENCE = "DigitalMicrowaveClient";
 

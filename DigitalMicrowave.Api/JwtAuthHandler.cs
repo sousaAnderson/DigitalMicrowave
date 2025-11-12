@@ -14,17 +14,19 @@ namespace DigitalMicrowave.Api
     public class JwtAuthHandler : DelegatingHandler
     {
         private readonly byte[] _key;
-        public JwtAuthHandler(byte[] key) { _key = key; }
+        public JwtAuthHandler(byte[] key) 
+        { 
+            _key = key; 
+        }
 
         protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellation)
         {
             var path = request.RequestUri.AbsolutePath.ToLower();
 
-            // ✅ Ignorar validação para Swagger e CORS preflight
-            if (request.Method == HttpMethod.Options ||
-                path.Contains("swagger") ||
-                path.Contains("swagger/docs") ||
-                path.Contains("swagger/ui"))
+            if (path.Contains("/api/auth/login") ||
+                path.Contains("/swagger") ||
+                path.Contains("/swagger/ui") ||
+                path.Contains("/swagger/docs"))
             {
                 return await base.SendAsync(request, cancellation);
             }

@@ -7,6 +7,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Web.Security;
 
 namespace DigitalMicrowave
 {
@@ -23,32 +24,40 @@ namespace DigitalMicrowave
         }
         protected async void btnLogin_Click(object sender, EventArgs e)
         {
-            var http = new HttpClient();
-            var loginData = new List<KeyValuePair<string, string>>
+            try
             {
+                var http = new HttpClient();
+                var loginData = new List<KeyValuePair<string, string>>
+                {
                 new KeyValuePair<string, string>("grant_type", "password"),
-                new KeyValuePair<string, string>("username", txtUser.Text),
-                new KeyValuePair<string, string>("password", txtPass.Text)
-            };
+                new KeyValuePair<string, string>("user", txtUser.Text),
+                new KeyValuePair<string, string>("password", FormsAuthentication.HashPasswordForStoringInConfigFile(txtPass.Text,  "SHA1"))
+                };
 
-            var content = new FormUrlEncodedContent(loginData);
-            string apiUrl = ConfigurationManager.AppSettings["ApiBaseUrl"];
-            var response = await http.PostAsync($"{apiUrl}/auth/login", content);
+                var content = new FormUrlEncodedContent(loginData);
+                string apiUrl = ConfigurationManager.AppSettings["ApiBaseUrl"];
+                var response = await http.PostAsync($"{apiUrl}/auth/login", content);
 
-            if (!response.IsSuccessStatusCode)
-            {
-                lblMsg.Text = "Login inválido!";
-                return;
+                if (!response.IsSuccessStatusCode)
+                {
+                    lblMsg.Text = "Login inválido!";
+                    return;
+                }
+
+                var jsonResponse = await response.Content.ReadAsStringAsync();
+                var token = JsonConvert.DeserializeObject<TokenResponse>(jsonResponse);
+
+                Session["AuthToken"] = token.AccessToken;
+                SaveToken(token.AccessToken);
+
+                lblMsg.ForeColor = System.Drawing.Color.Green;
+                lblMsg.Text = "Login OK!";
+                Response.Redirect("Microwave.aspx");
             }
-
-            var jsonResponse = await response.Content.ReadAsStringAsync();
-            var token = JsonConvert.DeserializeObject<TokenResponse>(jsonResponse);
-
-            SaveToken(token.AccessToken);
-
-            lblMsg.ForeColor = System.Drawing.Color.Green;
-            lblMsg.Text = "Login OK!";
-            Response.Redirect("HeatingPrograms.aspx");
+            catch (Exception ex)
+            {
+                lblMsg.Text = $"Ocorreu um erro: {ex.Message}";
+            }
         }
         private void SaveToken(string token)
         {

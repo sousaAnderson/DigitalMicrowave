@@ -29,8 +29,6 @@ namespace DigitalMicrowave.Api.Controllers
             if (request == null)
                 return BadRequest("Payload inválido");
 
-           // string hash = SHA256(request.Password);
-
             var exists = _userServices.GetUser(request.User, request.Password);
             if (exists == null)
                 return Unauthorized();
@@ -38,17 +36,6 @@ namespace DigitalMicrowave.Api.Controllers
             var token = JwtTokenProvider.GenerateToken(request.User);
             return Ok(new { token });
            
-        }
-
-        private string SHA256(string input)
-        {
-            using (var sha = System.Security.Cryptography.SHA256.Create())
-            {
-                byte[] bytes = sha.ComputeHash(Encoding.UTF8.GetBytes(input));
-                var sb = new StringBuilder();
-                foreach (byte b in bytes) sb.Append(b.ToString("x2"));
-                return sb.ToString();
-            }
         }
     }
 }
