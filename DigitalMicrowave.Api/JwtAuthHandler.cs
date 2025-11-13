@@ -23,7 +23,8 @@ namespace DigitalMicrowave.Api
         {
             var path = request.RequestUri.AbsolutePath.ToLower();
 
-            if (path.Contains("/api/auth/login") ||
+            if (path == "/" ||
+                path.Contains("/api/auth/login") ||
                 path.Contains("/swagger") ||
                 path.Contains("/swagger/ui") ||
                 path.Contains("/swagger/docs"))

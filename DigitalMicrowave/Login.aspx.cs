@@ -1,21 +1,19 @@
 ﻿using System;
 using Newtonsoft.Json;
-using System.Linq;
 using System.Net.Http;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Web.Security;
+using System.Web;
 
 namespace DigitalMicrowave
 {
+    //TODO: Usuario: admin / Senha: 123456
     public partial class Login : System.Web.UI.Page
     {
         private class TokenResponse
         {
-            [JsonProperty("access_token")]
+            [JsonProperty("token")]
             public string AccessToken { get; set; }
         }
         protected void Page_Load(object sender, EventArgs e)
@@ -47,24 +45,17 @@ namespace DigitalMicrowave
                 var jsonResponse = await response.Content.ReadAsStringAsync();
                 var token = JsonConvert.DeserializeObject<TokenResponse>(jsonResponse);
 
-                Session["AuthToken"] = token.AccessToken;
-                SaveToken(token.AccessToken);
+                Session["AuthToken"] = token.AccessToken;                
 
                 lblMsg.ForeColor = System.Drawing.Color.Green;
                 lblMsg.Text = "Login OK!";
-                Response.Redirect("Microwave.aspx");
+                Response.Redirect("MicrowavePanel.aspx", false);
+                HttpContext.Current.ApplicationInstance.CompleteRequest();
             }
             catch (Exception ex)
             {
                 lblMsg.Text = $"Ocorreu um erro: {ex.Message}";
             }
-        }
-        private void SaveToken(string token)
-        {
-            var config = System.Web.Configuration.WebConfigurationManager.OpenWebConfiguration("~");
-            config.AppSettings.Settings.Remove("JwtToken");
-            config.AppSettings.Settings.Add("JwtToken", token);
-            config.Save();
-        }
+        }        
     }
 }

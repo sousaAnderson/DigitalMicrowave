@@ -13,14 +13,22 @@ using System.Drawing;
 using Newtonsoft.Json;
 using System.Net.Http;
 using System.Text;
+using System.Net.Http.Headers;
 
 namespace DigitalMicrowave
 {
     public partial class HeatingPrograms : System.Web.UI.Page
     {
         private static HeatingProgramService _service;
-        protected void Page_Load(object sender, EventArgs e)
+        
+        protected async void Page_Load(object sender, EventArgs e)
         {
+            if (Session["AuthToken"] == null)
+            {
+                Response.Redirect("~/Login.aspx", true);
+                return;
+            }
+            
             if (_service == null)
             {
                 var repo = new HeatingProgramRepository();
@@ -32,21 +40,31 @@ namespace DigitalMicrowave
         }
         protected async void LoadGrid()
         {
-            var http = ApiClient.Client();
-            string apiUrl = ConfigurationManager.AppSettings["ApiBaseUrl"];
-            var response = await http.GetAsync($"{apiUrl}/heatingprograms");
-
-            if (!response.IsSuccessStatusCode)
+            try
             {
-                lblError.Text = "API não conectada!";
-                gridPrograms.Enabled = false;
-                return;
-            }
+                using (var client = ApiHelper.GetHttpClient())
+                {
+                    var response = await client.GetAsync("api/heatingprograms");
+                    if (!response.IsSuccessStatusCode)
+                    {
+                        lblError.Text = $"Erro ao carregar programas de aquecimento: {response.ReasonPhrase}";
+                        gridPrograms.Enabled = false;
+                        return;
+                    }
 
-            string json = await response.Content.ReadAsStringAsync();
-            var data = JsonConvert.DeserializeObject<List<HeatingProgram>>(json);
-            gridPrograms.DataSource = data;
-            gridPrograms.DataBind();
+                    string json = await response.Content.ReadAsStringAsync();
+                    var data = JsonConvert.DeserializeObject<List<HeatingProgram>>(json);
+                    gridPrograms.DataSource = data;
+                    gridPrograms.DataBind();
+                }                  
+
+               
+            }
+            catch (Exception ex) 
+            {
+                lblError.Text = ex.Message;
+            }
+           
         }
         protected void btnNew_Click(object sender, EventArgs e)
         {

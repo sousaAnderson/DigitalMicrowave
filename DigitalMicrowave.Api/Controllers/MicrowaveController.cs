@@ -7,6 +7,9 @@ using System.Web.Http;
 
 namespace DigitalMicrowave.Api.Controllers
 {
+
+    [Authorize]
+    [RoutePrefix("api/microwave")]
     public class MicrowaveController : ApiController
     {
         private MicrowaveServices _microwave;

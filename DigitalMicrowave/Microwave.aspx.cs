@@ -26,6 +26,11 @@ namespace DigitalMicrowave
         }
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["AuthToken"] == null)
+            {
+                Response.Redirect("~/Login.aspx", true);
+                return;
+            }
             if (_programService == null)
             {
                 var repo = new HeatingProgramRepository();
